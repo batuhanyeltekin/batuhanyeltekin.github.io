@@ -29,7 +29,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       author_profile: true
 

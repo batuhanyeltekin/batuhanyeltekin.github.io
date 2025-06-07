@@ -5,4 +5,4 @@ permalink: /
 author_profile: true
 ---
 
-# Homepage!
+[My Resume](/assets/resume.pdf)

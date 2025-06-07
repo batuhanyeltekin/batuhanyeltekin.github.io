@@ -1,0 +1,14 @@
+@import "minimal-mistakes";
+
+// Override avatar styling
+.author__avatar {
+  img {
+    // Remove the oval shape
+    border-radius: 0;
+    // Remove the border
+    border: none;
+    // Optional: if you want a specific size, uncomment and adjust these
+    // max-width: 150px;
+    // height: auto;
+  }
+} 

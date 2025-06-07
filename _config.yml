@@ -6,6 +6,11 @@ plugins:
 include:
   - _pages
 
+# Sass/SCSS
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 minimal_mistakes_skin: "contrast"
 
 title: "Batuhan Yeltekin"

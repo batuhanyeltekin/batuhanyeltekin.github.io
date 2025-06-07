@@ -3,8 +3,33 @@ remote_theme: mmistakes/minimal-mistakes@4.27.1
 plugins: 
   - jekyll-include-cache
 
-# minimal_mistakes_skin: minima
+minimal_mistakes_skin: "contrast"
 
-title: "Batuhan Yeltekin's Site"
+title: "Batuhan Yeltekin"
+locale: "en-US"
+description: "Batuhan Yeltekin's Personal Portfolio Page"
 
+author:
+  name: "Batuhan Yeltekin"
+  avatar: "/assets/images/batuhan.jpg"
+  bio: "Batuhan Yeltekin is rising junior at Columbia University studying Computer Science and Economics."
+  email: "batuhan.duru.yeltekin@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/batuhanyeltekin"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/batuhanyeltekin/"
+    - label : "Photo Gallery"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/fotoyeltekin/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
 

@@ -1,3 +1,0 @@
-# batuhanyeltekin.github.io
-
-Test

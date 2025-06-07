@@ -3,11 +3,15 @@ remote_theme: mmistakes/minimal-mistakes@4.27.1
 plugins: 
   - jekyll-include-cache
 
+include:
+  - _pages
+
 minimal_mistakes_skin: "contrast"
 
 title: "Batuhan Yeltekin"
 locale: "en-US"
 description: "Batuhan Yeltekin's Personal Portfolio Page"
+url: "https://batuhanyeltekin.github.io"
 
 author:
   name: "Batuhan Yeltekin"

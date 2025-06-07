@@ -1,3 +1,8 @@
 remote_theme: mmistakes/minimal-mistakes@4.27.1
-plugins:
--jekyll-include-cache
+plugins: jekyll-include-cache
+
+minimal_mistakes_skin: minima
+
+title: "Batuhan Yeltekin's Site"
+
+

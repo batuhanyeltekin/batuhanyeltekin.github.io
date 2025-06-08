@@ -5,10 +5,11 @@ plugins:
 
 include:
   - _pages
+  - /assets/css/main.scss
 
 # Sass/SCSS
 sass:
-  sass_dir: assets/css
+  sass_dir: _sass
   style: compressed
 
 minimal_mistakes_skin: "contrast"
@@ -20,7 +21,7 @@ url: "https://batuhanyeltekin.github.io"
 
 author:
   name: "Batuhan Yeltekin"
-  avatar: "/assets/images/batuhan.jpg"
+  avatar: "/assets/images/batuhan.png"
   bio: "Batuhan Yeltekin is rising junior at Columbia University studying Computer Science and Economics."
   email: "batuhan.duru.yeltekin@gmail.com"
   links:

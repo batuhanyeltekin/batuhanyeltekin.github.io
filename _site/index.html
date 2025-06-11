@@ -48,7 +48,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-    "name": null,
+    "name": "Batuhan Yeltekin",
     "url": "http://localhost:4000/"
 }
 </script>
@@ -88,7 +88,7 @@
 
   </head>
 
-  <body class="layout--home" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -106,9 +106,26 @@
         
         <a class="site-title" href="/">
           Batuhan Yeltekin
-          
+          <span class="site-subtitle"></span>
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/assets/resume.pdf/"
+                
+                
+              >Resume</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -123,6 +140,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -157,6 +176,10 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">New York, NY</span>
+        </li>
       
 
       
@@ -246,35 +269,68 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     
-      <h1 id="page-title" class="page__title"></h1>
     
-    <p><a href="/assets/resume.pdf">My Resume</a></p>
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
 
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Great to see you here! I am Batu, a rising third-year student at Columbia University studying Computer Science and Economics. My interests lie in the intersection of artificial intelligence/machine learning methods, financial analysis, and natural language processing. Please feel free to look around my website!</p>
+
+<p>My original website, <a href="https://batuhanyeltekin.com">batuhanyeltekin.com</a> is undergoing major reconstruction as I am currently working on migrating the website from a Wordpress model to a MERN stack. This shall do for now.</p>
 
 
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
 
 
-<div class="entries-list">
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
   
-
-
-
-
-</div>
-
-
-
-
-  </div>
+  
 </div>
 
       
     </div>
 
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
     
 
     <div id="footer" class="page__footer">
@@ -286,6 +342,16 @@
   <ul class="social-icons">
     
 
+    
+      
+        
+          <li><a href="https://github.com/batuhanyeltekin" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/batuhanyeltekin/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
     
 
     
@@ -304,6 +370,10 @@
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

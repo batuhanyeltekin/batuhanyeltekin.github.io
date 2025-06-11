@@ -1,0 +1,10 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Resume"
+    url: /assets/resume.pdf/
+  # - title: "Research"
+  #   url: /research/
+  # - title: "Projects"
+  #   url: /projects/
+  

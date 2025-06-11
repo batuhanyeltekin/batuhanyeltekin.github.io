@@ -5,24 +5,24 @@ plugins:
 
 include:
   - _pages
-  - /assets/css/main.scss
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-minimal_mistakes_skin: "contrast"
-
-title: "Batuhan Yeltekin"
+# Site settings
 locale: "en-US"
+title: "Batuhan Yeltekin"
+title_separator: "-"
+subtitle: ""
+name: "Batuhan Yeltekin"
 description: "Batuhan Yeltekin's Personal Portfolio Page"
 url: "https://batuhanyeltekin.github.io"
+baseurl: ""
+repository: "batuhanyeltekin/batuhanyeltekin.github.io"
 
+# Site Author
 author:
   name: "Batuhan Yeltekin"
   avatar: "/assets/images/batuhan.png"
   bio: "Batuhan Yeltekin is rising junior at Columbia University studying Computer Science and Economics."
+  location: "New York, NY"
   email: "batuhan.duru.yeltekin@gmail.com"
   links:
     - label: "GitHub"
@@ -31,15 +31,55 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/batuhanyeltekin/"
-    - label : "Photo Gallery"
+    - label: "Photo Gallery"
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/fotoyeltekin/"
 
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/batuhanyeltekin"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/batuhanyeltekin/"
+
+# Defaults
 defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
+      layout: single
       author_profile: true
+      read_time: true
+      share: true
+      related: true
+
+# Main navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Resume"
+    url: /resume/
+
+# Theme settings
+minimal_mistakes_skin: "contrast"
+
+# Build settings
+markdown: kramdown
+search: true
 

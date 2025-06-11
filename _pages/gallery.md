@@ -1,7 +1,7 @@
 ---
-title: "Research"
+title: "Photo Gallery"
 layout: single
-permalink: /research/
+permalink: /gallery/
 author_profile: true
 
 ---

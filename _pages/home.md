@@ -3,7 +3,7 @@ permalink: /
 author_profile: true
 carousels:
   - images: 
-    - image: /assets/images/8.png
+    - image: /assets/images/8.PNG
     - image: /assets/images/IMG_2940.png
     - image: /assets/images/IMG_3075.png
     - image: /assets/images/IMG_4104.png

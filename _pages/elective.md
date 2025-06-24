@@ -34,7 +34,7 @@ author_profile: true
  - Acquisition channels - how to attract potential customers
  - Analyze current competition: company highlights, market vs product information, direct vs indirect competitors SWOT
 
-
+[First week deck](/assets/pres1.pdf)
 
 
 
